@@ -1,0 +1,6 @@
+@Desafio___G_P_e_CIJUN_HostAddress = http://localhost:5274
+
+GET {{Desafio___G_P_e_CIJUN_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
