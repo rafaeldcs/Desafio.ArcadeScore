@@ -10,7 +10,7 @@
 		public DateTime FirstGame { get; set; }
 		public DateTime LastGame { get; set; }
 		public int RecordBreaks { get; set; }
-		public string TimePlaying { get; set; } = string.Empty; // ✅ novo campo
+		public string TimePlaying { get; set; } = string.Empty;
 	}
 
 }

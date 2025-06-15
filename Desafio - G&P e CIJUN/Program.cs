@@ -34,7 +34,7 @@ if (app.Environment.IsDevelopment())
 // CORs
 app.UseCors(policy =>
 {
-	policy.AllowAnyOrigin() // ajuste conforme necessário
+	policy.AllowAnyOrigin()
 		  .AllowAnyHeader()
 		  .AllowAnyMethod();
 });
