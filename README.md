@@ -81,7 +81,7 @@ Sistema desenvolvido como teste técnico para registrar e consultar pontuações
 
 #### 1. Backend (API)
 ```bash
-cd ArcadeScore.Api
+cd Desafio.ArcadeScore
 dotnet restore
 dotnet ef database update
 dotnet run
