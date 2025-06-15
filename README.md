@@ -112,7 +112,7 @@ Ou, para ignorar no SSR (temporário e apenas em dev):
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 ```
 
-**observação: item nao usado durante desenvolvimento**.
+**observação: item não usado durante desenvolvimento(parte de evitar warning, cors foi sim habilitado para desenvolvimento e acesso da api)**.
 ---
 
 ## 📄 Observações Finais
