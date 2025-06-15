@@ -112,6 +112,7 @@ Ou, para ignorar no SSR (temporário e apenas em dev):
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 ```
 
+**observação: item nao usado durante desenvolvimento**.
 ---
 
 ## 📄 Observações Finais
