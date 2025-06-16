@@ -1,0 +1,38 @@
+.stats-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 1rem;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #444;
+    }
+  
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+  
+    .stat-card {
+      background: #fafafa;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      text-align: center;
+  
+      h3 {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 0.5rem;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #222;
+      }
+    }
+  }
+  

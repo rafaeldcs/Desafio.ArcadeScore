@@ -1,0 +1,17 @@
+<section class="stats-container">
+    <h2>📊 Estatísticas de {{ stats.player }}</h2>
+    <div class="stats-grid">
+      <div class="stat-card"><h3>Partida Jogadas</h3><p>{{ stats.totalGames }}</p></div>
+      <div class="stat-card"><h3>Média de Pontuação</h3><p>{{ stats.averageScore }}</p></div>
+      <div class="stat-card"><h3>Maior Pontuação</h3><p>{{ stats.maxScore }}</p></div>
+      <div class="stat-card"><h3>Menor Pontuação</h3><p>{{ stats.minScore }}</p></div>
+      <div class="stat-card"><h3>Primeiro Jogo</h3><p>{{ stats.firstGame | date: 'dd/MM/yyyy' }}</p></div>
+      <div class="stat-card"><h3>Último Jogo</h3><p>{{ stats.lastGame | date: 'dd/MM/yyyy' }}</p></div>
+      <div class="stat-card"><h3>Recordes Quebrados</h3><p>{{ stats.recordBreaks }}</p></div>
+      <div class="stat-card">
+        <h3>Tempo que Joga</h3>
+        <p>{{ stats.timePlaying }}</p>
+      </div>
+    </div>
+  </section>
+  

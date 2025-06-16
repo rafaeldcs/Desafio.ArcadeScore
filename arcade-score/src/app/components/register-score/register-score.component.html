@@ -1,0 +1,27 @@
+<section class="register-container">
+    <h2>➕ Registrar Nova Pontuação</h2>
+  
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form">
+      <label>
+        Nome do Jogador:
+        <input type="text" formControlName="playerName" />
+      </label>
+  
+      <label>
+        Pontuação:
+        <input type="number" formControlName="value" />
+      </label>
+  
+      <button type="submit" [disabled]="form.invalid">Enviar</button>
+    </form>
+  
+    <div *ngIf="scores.length > 0" class="score-list">
+      <h3>Pontuações Registradas</h3>
+      <ul>
+        <li *ngFor="let score of scores">
+          <strong>{{ score.playerName }}</strong>: {{ score.value }}
+        </li>
+      </ul>
+    </div>
+  </section>
+  
